@@ -2,6 +2,7 @@
   "name": "mannie-eslint-plugin",
   "version": "0.1.0",
   "description": "eslint rules for eslint by Emmanuel Cobham",
+  "private": true,
   "main": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
