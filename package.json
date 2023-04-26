@@ -2,13 +2,15 @@
   "name": "mannie-eslint-plugin",
   "version": "0.1.0",
   "description": "eslint rules for eslint by Emmanuel Cobham",
-  "private": true,
   "main": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint --config .eslintrc.js src/**/*.{js,ts}",
     "prepublishOnly": "npm run build",
     "build": "tsc --project ./tsconfig.json"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
