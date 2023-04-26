@@ -1,19 +1,24 @@
 {
   "parser": "@typescript-eslint/parser",
   "plugins": [
-    "my-plugin",
+    "@mannie/mannie-plugin",
     "jsdoc"
   ],
   "extends": [
     "plugin:jsdoc/recommended",
     "plugin:vue/essential",
-    "eslint:recommended",
     "@vue/typescript/recommended",
     "plugin:prettier/recommended"
   ],
   "rules": {
-    "my-plugin/double-quotes": "error",
-    "my-plugin/no-delete-eslint-prettier": "error",
-    "my-plugin/jsdoc-for-functions": "error"
+    "@mannie/double-quotes": "error",
+    "@mannie/no-delete-eslint-prettier": "error",
+    "jsdoc/require-jsdoc": ["error", {
+      "require": {
+        "FunctionDeclaration": true,
+        "MethodDefinition": true,
+        "ClassDeclaration": true
+      }
+    }]
   }
 }
