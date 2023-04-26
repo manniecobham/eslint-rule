@@ -1,0 +1,19 @@
+{
+  "name": "eslint-rules-mannie",
+  "version": "0.1.0",
+  "description": "Eslint rules for development from mannie",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/mannie/eslint-rules.git"
+  },
+  "author": "Emmanuel Cobham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/mannie/eslint-rules/issues"
+  },
+  "homepage": "https://gitlab.com/mannie/eslint-rules#readme"
+}
