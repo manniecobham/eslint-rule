@@ -1,6 +1,6 @@
 {
   "name": "mannie-eslint-plugin",
-  "version": "0.1.0",
+  "version": "0.5.0",
   "description": "eslint rules for eslint by Emmanuel Cobham",
   "main": "./dist/index.js",
   "scripts": {
